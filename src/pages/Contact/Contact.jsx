@@ -4,7 +4,8 @@ function Contact() {
   return (
     <div className="w-[100%] h-[100%] md:flex">
         <div className="w-[100%] h-[50vh] md:w-[50%] md:h-[100vh]  bg-white flex justify-center items-center">
-        <iframe src="https://embed.lottiefiles.com/animation/89604" title="contactform" className="w-[100%] h-[70%]"></iframe>
+
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_ipd377dh.json" className="w-[100%] h-[70%]"  background="transparent"  speed="1"  style={{width: "380px", height: "380px"}}  loop autoplay></lottie-player>
         </div>
         <div className="w-[100%] md:w-[50%] md:h-[100vh] min-h-[50vh] bg-[#10091c]">
         <h1 className="text-center w-[100%] text-white font-kanit text-[30px] md:text-[45px] mt-8">Contact us!</h1>
